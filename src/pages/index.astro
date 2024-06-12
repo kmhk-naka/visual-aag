@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro"
+import DrawingCanvas from '../components/DrawingCanvas.vue'
+---
+
+<Layout>
+  <div class="container">
+    <h1>Visual Ascii Art Canvas</h1>
+    <DrawingCanvas client:load />
+  </div>
+</Layout>
