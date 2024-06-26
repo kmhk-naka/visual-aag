@@ -38,10 +38,10 @@ const asciiChars: Record<TabKey, string[]> = {
   az: 'abcdefghijklmnopqrstuvwxyz'.split(''),
   AZ: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''),
   number: '0123456789'.split(''),
-  symbol: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'.split(''),
+  symbol: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ '.split(''),
 };
 
-const tabList: { key: TabKey, name: string }[] = [
+const tabList: { key: TabKey; name: string }[] = [
   { key: 'az', name: 'a-z' },
   { key: 'AZ', name: 'A-Z' },
   { key: 'number', name: '0-9' },
